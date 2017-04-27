@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/mall/mall",
+        "pages/cart/cart",
+        "pages/mine/mine",
+        "pages/attention/attention"
+    ],
+    "window": {
+
+    },
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/mall/mall",
+            "text": "商城"
+        }, {
+            "pagePath": "pages/cart/cart",
+            "text": "购物车"
+        }, {
+            "pagePath": "pages/attention/attention",
+            "text": "关注"
+        }, {
+            "pagePath": "pages/mine/mine",
+            "text": "个人中心"
+        }],
+        "newworkTimeout": {
+            "request": 10000,
+            "downloadFile": 10000
+        },
+        "debug": true
+    }
+}
