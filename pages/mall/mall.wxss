@@ -1,0 +1,8 @@
+.container{
+    min-height: 100vh;
+    background-color: #F8F8F8;
+}
+.slideImg{
+    width:100vw;
+    height:300rpx;
+} 

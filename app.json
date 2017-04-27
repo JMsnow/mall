@@ -11,17 +11,27 @@
     "tabBar": {
         "list": [{
             "pagePath": "pages/mall/mall",
-            "text": "商城"
+            "text": "商城",
+            "iconPath":"./images/mall_a.png",
+            "selectedIconPath":"./images/mall_b.png"
         }, {
             "pagePath": "pages/cart/cart",
-            "text": "购物车"
+            "text": "购物车",
+            "iconPath":"./images/cart_a.png",
+            "selectedIconPath":"./images/cart_b.png"
         }, {
             "pagePath": "pages/attention/attention",
-            "text": "关注"
+            "text": "关注",
+            "iconPath":"./images/attention_a.png",
+            "selectedIconPath":"./images/attention_b.png"
         }, {
             "pagePath": "pages/mine/mine",
-            "text": "个人中心"
+            "text": "个人中心",
+            "iconPath":"./images/mine_a.png",
+            "selectedIconPath":"./images/mine_b.png"
         }],
+        "color":"#898989",
+        "selectedColor":"#096BB6",
         "newworkTimeout": {
             "request": 10000,
             "downloadFile": 10000
